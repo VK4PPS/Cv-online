@@ -1,0 +1,41 @@
+/* Cores */
+body{
+    background-color: #1e1e28;
+}
+
+.fundoEscuro{
+    background-color: #17161c;
+}
+
+
+.fundoGradiente1{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.075) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.fundoGradiente2{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.158) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.fundoGradiente3{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.062) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.fundoGradiente4{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.055) 100%);
+}
+
+a, p, small, h5, .texto{
+    color: white !important;
+}
+
+.textoDestaque{
+    color: #fec20c !important;
+}
+
+.destaqueHover:hover{
+    color: #fec20c !important;
+}
